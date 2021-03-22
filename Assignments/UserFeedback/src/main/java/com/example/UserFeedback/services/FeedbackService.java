@@ -16,5 +16,10 @@ public class FeedbackService {
 		return feedbackRepository.findAll();
 	}
 	
+	public Feedback addFunction(Feedback feedback) {
+		feedbackRepository.save(feedback);
+		return feedback;
+	}
+	
 
 }

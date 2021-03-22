@@ -2,20 +2,19 @@
 <html>
 <head>
 
-<script src="testform.js">
-</script>
-
 </head>
 
 <body>
 
 <h2>Feedback Test Form</h2>
 
-<form onsubmit="SubmitTestForm()">
+<form name = "testform" action = "/feedback" method = "post">
   <label for="fname">Name:</label><br>
-  <input type="text" id="name" name="name" ><br>
+  <input type="text" id="user" name="user" ><br>
   <label for="comment">Comment:</label><br>
-  <input type="text" id="comment" name="comment" ><br><br>
+  <input type="text" id="comments" name="comments" ><br>
+  <label for="rating">Rating:</label><br>
+  <input type="text" id="rating" name="rating" ><br><br>
   <input type="submit" value="Submit" >
 </form> 
 
