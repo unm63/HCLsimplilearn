@@ -30,7 +30,7 @@ public class UserService {
         return foundUser;
     }
     
-    public User GetUserById(int id) {
+    /*public User GetUserById(int id) {
     	Optional<User> foundUser = userRepository.findById(id);
     	
     	
@@ -43,7 +43,7 @@ public class UserService {
     	return(foundUser.get());
     }
     
-    /*public void UpdateUser(User usertoUpdate) {
+    public void UpdateUser(User usertoUpdate) {
     	userRepository.save(usertoUpdate);
     }*/
     
