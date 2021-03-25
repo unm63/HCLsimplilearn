@@ -22,7 +22,7 @@ public class UserServiceTests {
 	private User dummy = new User();
 	
 	@BeforeEach
-	public void bulid() {		   
+	public void init() {		   
 	         dummy.setName("Dummy");
 	         dummy.setEmail("test@test.com");
 	         dummy.setPassword("password");
